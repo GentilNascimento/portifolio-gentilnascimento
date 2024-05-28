@@ -1,0 +1,26 @@
+/*Com esses parâmetros, tiramos os estilos
+que vém por padrão no HTML*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/*links, âncoras, tags*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* todas tags*/
+ul {
+    list-style: none;
+}
+
+/*todas imagens com 100%*/
+img {
+    max-width: 100%;
+}
